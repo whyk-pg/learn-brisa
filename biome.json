@@ -1,5 +1,8 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+  "files": {
+    "ignore": ["build"]
+  },
   "organizeImports": {
     "enabled": true
   },
@@ -12,5 +15,10 @@
   "formatter": {
     "enabled": true,
     "indentStyle": "space"
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single"
+    }
   }
 }
